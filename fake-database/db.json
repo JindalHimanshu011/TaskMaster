@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VybmFtZSI6InVzZXIxIiwicGFzc3dvcmQiOiIxMjM0Iiwicm9sZXMiOlsiVVNFUiJdfQ.csCCZ90W_Q0O_mwKnAYUW1vNpuGYvJRcrj4DbooFQ0o"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "1234",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6InVzZXIyIiwiaWF0IjoxNTE2MjM5MDIyLCJ1c2VybmFtZSI6InVzZXIyIiwicGFzc3dvcmQiOiIxMjM0Iiwicm9sZXMiOlsiVVNFUiJdfQ.6ShvE36_cMIlGafTwY-FUUn0LZi2RaA99Y2zaucUfmM"
+    },
+    {
+      "id": "3",
+      "username": "admin",
+      "password": "1234",
+      "roles": [
+        "ADMIN",
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJpZCI6MywidXNlcm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiMTIzNCIsInJvbGVzIjpbIkFETUlOIiwiVVNFUiJdfQ.-SlCI_sAc107PIqh6ASVlOZEvrFQATuItPyPp73to3U"
+    }
+  ],
+  "products": [
+    {
+      "title": "test1",
+      "description": "testing in progress1",
+      "duedate": "2025-04-29",
+      "priority": "Medium",
+      "status": "In_Progress",
+      "name": "",
+      "price": 0,
+      "is_checked": false,
+      "id": "2"
+    },
+    {
+      "title": "himanshu",
+      "description": "name",
+      "duedate": "2025-04-09",
+      "priority": "Medium",
+      "status": "To-Do",
+      "name": "",
+      "price": 0,
+      "is_checked": false,
+      "id": "3"
+    },
+    {
+      "title": "test",
+      "description": "testing in progress",
+      "duedate": "2025-04-28",
+      "priority": "High",
+      "status": "Done",
+      "name": "",
+      "price": 0,
+      "is_checked": false,
+      "id": "4"
+    },
+    {
+      "id": "1",
+      "title": "q1",
+      "description": "q2",
+      "duedate": "2025-05-14",
+      "priority": "Low",
+      "status": "In_Progress",
+      "name": "",
+      "price": 0,
+      "is_checked": false
+    }
+  ],
+  "errors": [
+    {
+      "context": "login",
+      "message": "Wrong Credentials",
+      "id": "3bff"
+    },
+    {
+      "context": "products",
+      "message": "Failed to fetch products",
+      "id": "4a74"
+    }
+  ]
+}
